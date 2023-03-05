@@ -118,7 +118,7 @@ export default function Header({mobileOpen,handleDrawerToggle,setInput}) {
                 component="div"
                 sx={{ display: { xs: 'none', sm: 'block' } }}
               >
-                Iswhar
+               Ishwar
               </Typography>
             </Link>
             <Search

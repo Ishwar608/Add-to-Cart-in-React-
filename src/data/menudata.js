@@ -3,6 +3,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Badge } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 export const Webmenu = [
     "Profile",
@@ -57,9 +58,9 @@ export const headerItem = [{
 }
     ,
 {
-    child: <Badge badgeContent={0} color="error">
+    child: <Link style={{textDecoration:'none',color:'inherit'}} to='cartlist'><Badge badgeContent={0} color="error">
         <ShoppingCartIcon />
-    </Badge>,
+    </Badge></Link>,
     helptext: ''
 }
 
